@@ -4,8 +4,8 @@ if (fs.existsSync('config.env')) require('dotenv').config({ path: './config.env'
 function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
-module.exports = {
-SESSION_ID: process.env.SESSION_ID || "",
+module.exports = {SUPUN-MD
+SESSION_ID: process.env.SESSION_ID || "SUPUN-MD=nN0jiKaY#L3Nj4nX_BKjEggA2uWf-eYGuo_qCoREM3FYgvbOTkcU",
 // add your Session Id 
 AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
 // make true or false status auto seen
